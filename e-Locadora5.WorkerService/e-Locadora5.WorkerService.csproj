@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-e_Locadora5.WorkerService-10981B2D-700E-4B5F-AAF1-0B485CFF4E5A</UserSecretsId>
+    <RootNamespace>e_Locadora5.WorkerService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\e-Locadora5.Aplicacao\e-Locadora5.Aplicacao.csproj" />
+    <ProjectReference Include="..\e-Locadora5.Dominio\e-Locadora5.Dominio.csproj" />
+    <ProjectReference Include="..\e-Locadora5.Infra.ORM\e-Locadora5.Infra.ORM.csproj" />
+  </ItemGroup>
+</Project>

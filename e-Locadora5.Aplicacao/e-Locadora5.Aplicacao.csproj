@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>e_Locadora5.Aplicacao</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\e-Locadora5.Dominio\e-Locadora5.Dominio.csproj" />
+    <ProjectReference Include="..\e-Locadora5.Infra.GeradorLogs\e-Locadora5.Infra.GeradorLogs.csproj" />
+  </ItemGroup>
+
+</Project>
